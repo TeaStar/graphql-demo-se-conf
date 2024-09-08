@@ -16,7 +16,7 @@ The `apollo-gateway` is a Node project.
 
 ### Start Customer API
 1. Either start application in an IDE or via the Terminal using `./gradlew bootRun`
-2. Open http://localhost:8080 for the GraphiQL query editor
+2. Open http://localhost:8080/graphiql for the GraphiQL query editor
 
 The following is a Customer query:
 ```graphql
@@ -32,7 +32,7 @@ query {
 
 ### Start Agreement API
 1. Either start application in an IDE or via the Terminal using `./gradlew bootRun`
-2. Open http://localhost:8081 for the GraphiQL query editor
+2. Open http://localhost:8081/graphiql for the GraphiQL query editor
 
 The following is an Agreement query:
 ```graphql
