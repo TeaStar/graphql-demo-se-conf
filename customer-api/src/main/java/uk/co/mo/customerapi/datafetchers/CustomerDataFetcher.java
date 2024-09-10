@@ -11,12 +11,12 @@ import java.util.List;
 public class CustomerDataFetcher {
 
     private final List<Customer> customers = List.of(
-            new Customer(123, "Mrs", "Carol", "Shaw", "carol.s@example.com", 1111),
-            new Customer(222, "Mrs", "Carol", "Moore", "carol.m@example.com", 2222),
-            new Customer(456, "Mr", "Fred", "Dibnah", "fred.d@example.com", 3333),
-            new Customer(789, "Miss", "Parisa", "Tabriz", "parisa.t@example.com", 4444),
-            new Customer(1111, "Mr", "Andrew", "Eldritch", "andrew.e@example.com", 5555),
-            new Customer(2222, "Miss", "Patricia", "Morrison", "patrica.m@example.com", 6666)
+            new Customer(123, "Mrs", "Carol", "Shaw", "carol.s@example.com"),
+            new Customer(222, "Mrs", "Carol", "Moore", "Carol.m@example.com"),
+            new Customer(456, "Mr", "Fred", "Dibnah", "fred.d@example.com"),
+            new Customer(789, "Miss", "Parisa", "Tabriz", "parisa.t@example.com"),
+            new Customer(1111, "Mr", "Andrew", "Eldritch", "andrew.e@example.com"),
+            new Customer(2222, "Miss", "Patricia", "Morrison", "patrica.m@example.com")
     );
 
     @DgsQuery
